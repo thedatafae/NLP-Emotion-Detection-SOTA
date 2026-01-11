@@ -29,14 +29,14 @@ Using TF-IDF, the model looks at isolated words. It sees "happy", "smile", "tend
 * **Result:** High confusion between *Love* and *Joy*.
 * **Accuracy Cap:** ~90%
 
-![Place your SVM Confusion Matrix Here](https://via.placeholder.com/600x400?text=Upload+Your+SVM+Heatmap+Here)
+![Place your SVM Confusion Matrix Here](https://github.com/thedatafae/NLP-Emotion-Detection-SOTA/raw/main/Charts/SVM_Confusion_Matrix.png)
 
 ### 2. The Solution (DistilBERT)
 BERT reads the sentence *bidirectionally*. It understands that "I cherish you" (Love) is structurally different from "I am happy for you" (Joy), even if the words are positive.
 * **Result:** drastic reduction in False Positives.
 * **Final Accuracy:** ~94%
 
-![Place your BERT Confusion Matrix Here](https://via.placeholder.com/600x400?text=Upload+Your+BERT+Heatmap+Here)
+![Place your BERT Confusion Matrix Here](https://github.com/thedatafae/NLP-Emotion-Detection-SOTA/raw/main/Charts/BERT_Confusion_Matrix.png)
 
 ---
 
